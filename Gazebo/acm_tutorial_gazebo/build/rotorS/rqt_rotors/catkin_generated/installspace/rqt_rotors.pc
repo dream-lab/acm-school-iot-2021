@@ -1,0 +1,8 @@
+prefix=/home/sumanraj/acm-school-iot-2021/Gazebo/acm_tutorial_gazebo/install
+
+Name: rqt_rotors
+Description: Description of rqt_rotors
+Version: 6.0.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

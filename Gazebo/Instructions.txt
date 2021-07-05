@@ -1,13 +1,7 @@
 ====================OS Requirements=========================
-Ubuntu 20.04 (focal) / Ubuntu 18.04 (bionic)
-
+Ubuntu 18.04 (bionic)
 
 ====================ROS Installation========================
-==> For Ubuntu 20.04 users, follow ROS noetic installation steps: http://wiki.ros.org/noetic/Installation/Ubuntu 
-
-
-
-
 
 ==> For Ubuntu 18.04 users, follow ROS kinetic installation steps: http://wiki.ros.org/melodic/Installation/Ubuntu 
 

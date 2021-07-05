@@ -29,7 +29,32 @@ sudo apt install python-rosdep
 sudo rosdep init
 rosdep update 
 
+
 ====================Setting up the launch Files================
 
+cd /acm-school-iot-2021/Gazebo/acm_tutorial_gazebo
 
+Open the new terminals in the same window
+==> Terminal 1: Starts the ros master
+source /opt/ros/melodic/setup.bash 
+catkin_make 
+roscore 
 
+==> Terminal 2: Starts the gazebo world 
+source devel/setup.bash 
+roslaunch rotors_gazebo gazebo_launch.launch
+
+==> Terminal 3: Launches the drone. Uncomment lines 26-44 for launching 2nd drone. 
+source devel/setup.bash 
+roslaunch rotors_gazebo mav_acm.launch
+
+==> Terminal 4: Starts subscribing the drone's position. Uncomment line 19 for 2nd drone. 
+source devel/setup.bash  
+python test_subscriber.py
+
+==> Terminal 5: Starts publishing the waypoint to the drone. Uncomment lines 88, 91 for 2nd drone. 
+source devel/setup.bash  
+python test_publisher.py
+
+====================References=================================
+git clone https://github.com/ethz-asl/rotors_simulator.git 

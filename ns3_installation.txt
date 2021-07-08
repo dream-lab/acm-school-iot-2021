@@ -1,0 +1,19 @@
+Fresh installation of Ubuntu OS 
+
+$] sudo apt update
+$] sudo apt install build-essential autoconf automake libxmu-dev
+
+$] sudo apt install build-essential autoconf automake libxmu-dev python-pygraphviz cvs mercurial bzr git cmake p7zip-full python-matplotlib python-tk python-dev python-kiwi python-gnome2 python-gnome2-desktop qt4-dev-tools qt4-qmake qt4-qmake qt4-default gnuplot-x11 wireshark
+
+extract to /home/user
+To find what is your HOME, give the following command.
+$] echo $HOME
+
+$] cd ns-allinone-3.31/
+$] ./build.py --enable-examples --enable-tests
+
+$] cd ns-allinone-3.31/ns-3.31/
+$] ./waf --run hello-simulator 
+This will display 
+"Hello Simulator" 
+Which indicates that ns3 is installed successfully.

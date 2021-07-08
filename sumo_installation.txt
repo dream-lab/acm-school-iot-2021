@@ -1,0 +1,29 @@
+Traffic Modeling,
+Vehicular Connectivity
+Network Modeling.
+
+sudo apt update
+sudo apt-get install cmake python g++ libxerces-c-dev libfox-1.6-dev libgdal-dev libproj-dev libgl2ps-dev swig
+
+Steps to install
+1. Prerequisities (download all the dependencies)
+2. Download SUMO
+3. Set the PATH
+4. Make
+5. Run 
+
+Step 1:
+$] sudo apt update
+$] sudo apt-get install cmake python g++ libxerces-c-dev libfox-1.6-dev libgdal-dev libproj-dev libgl2ps-dev swig
+
+Step 2
+$] sudo apt install git 
+$] git clone --recursive https://github.com/eclipse/sumo
+
+step 3 - seting the path
+export SUMO_HOME="$PWD/sumo"
+
+Step 4 - Cmake build
+ mkdir sumo/build/cmake-build && cd sumo/build/cmake-build
+$] cmake ../..
+$] make -j8

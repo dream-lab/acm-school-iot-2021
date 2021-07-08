@@ -1,0 +1,8 @@
+prefix=/home/sumanraj/acm-school-iot-2021/Gazebo/acm_tutorial_gazebo/install
+
+Name: rotors_joy_interface
+Description: Description of rotors_joy_interface
+Version: 6.0.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs mav_msgs sensor_msgs trajectory_msgs

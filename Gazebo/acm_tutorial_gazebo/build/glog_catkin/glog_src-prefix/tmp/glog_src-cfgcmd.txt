@@ -1,1 +1,0 @@
-cmd='cd;../glog_src/;&&;autoreconf;-fi;&&;./configure;--with-pic;--with-gflags=;--prefix=/home/sumanraj/acm-school-iot-2021/Gazebo/acm_tutorial_gazebo/devel'

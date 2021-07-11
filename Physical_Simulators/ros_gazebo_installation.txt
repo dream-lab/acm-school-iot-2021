@@ -3,7 +3,7 @@ Ubuntu 18.04 (bionic)
 
 ====================ROS Installation===================================================
 
-==> For Ubuntu 18.04 users, follow ROS kinetic installation steps: http://wiki.ros.org/melodic/Installation/Ubuntu 
+==> For Ubuntu 18.04 users, follow ROS melodic installation steps: http://wiki.ros.org/melodic/Installation/Ubuntu 
 
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list' 
 

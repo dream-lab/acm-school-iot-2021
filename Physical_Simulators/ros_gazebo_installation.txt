@@ -37,6 +37,9 @@ catkin_make
 ====================Download the gazebo simulation source file=======================
 https://indianinstituteofscience-my.sharepoint.com/:u:/g/personal/sumanraj_iisc_ac_in/EVwm0WjDKQtOvaoyKTjxcWsBGEvvIoaVAn5Ii-1E2TQSqQ?e=xIEMJM
 
+sudo apt-get install ros-melodic-octomap
+
+
 ====================Setting up the launch Files=======================================
 
 unzip the gazebo_simulation.zip file

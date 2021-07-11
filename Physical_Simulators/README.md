@@ -1,1 +1,0 @@
-# acm-school-iot-2021

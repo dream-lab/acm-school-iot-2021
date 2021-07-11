@@ -24,13 +24,18 @@ sudo rosdep init
 rosdep update 
 
 ==> Check if ROS was installed properly
-source /opt/ros/melodic/setub.bash
+source /opt/ros/melodic/setup.bash
 echo $ROS_PACKAGE_PATH
 
+==> Build workspace (caktkin Build system)
+Skip these steps for this project and proceed to next section for downloading the files
+### For first build 
+catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python 
+### For subsequent builds
+catkin_make 
+
 ====================Download the gazebo simulation source file=======================
-https://indianinstituteofscience-my.sharepoint.com/:u:/g/personal/sumanraj_iisc_ac_in/Ecz0s5104b1FrpjTaoZCg_IBJB_9gIXatdDJBBiS_ZTnWQ?e=e1NhWS
-
-
+https://indianinstituteofscience-my.sharepoint.com/:u:/g/personal/sumanraj_iisc_ac_in/EVwm0WjDKQtOvaoyKTjxcWsBGEvvIoaVAn5Ii-1E2TQSqQ?e=xIEMJM
 
 ====================Setting up the launch Files=======================================
 

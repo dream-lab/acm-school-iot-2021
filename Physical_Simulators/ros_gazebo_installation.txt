@@ -35,7 +35,7 @@ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python
 catkin_make 
 
 ====================Download the gazebo simulation source file=======================
-https://indianinstituteofscience-my.sharepoint.com/:u:/g/personal/sumanraj_iisc_ac_in/EVwm0WjDKQtOvaoyKTjxcWsBGEvvIoaVAn5Ii-1E2TQSqQ?e=xIEMJM
+https://indianinstituteofscience-my.sharepoint.com/:u:/g/personal/sumanraj_iisc_ac_in/EXSofpT8__xAm6FN7bn4e8sBMDKF6XPwh9_a2bATZjlXsw?e=4Yfmxo
 
 sudo apt-get install ros-melodic-octomap
 

@@ -1,7 +1,8 @@
-# Summer School on IoT and Embedded Systems 
+# ACM India Summer School on IoT and Embedded Systems 
 ## Hosted by IIIT Bangalore
+[www](https://india.acm.org/education/iot-summer-2021)
 
-### IoT Applications
+### Session: IoT Applications
 ### *Yogesh Simmhan (Lecture)*
 ### *Suman Raj, Shreya Mishra (Tutorials)*
 
